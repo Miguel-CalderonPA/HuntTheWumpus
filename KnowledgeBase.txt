@@ -1,0 +1,15 @@
+V == FOR ALL SYMBOL
+3 == THERE EXISTS
+Turn: 1
+You are in room [1 4] of the cave. Facing EAST
+Vx -> 3x Location(Human(x))
+
+
+Turn: 2
+You are in room [2 4] of the cave. Facing EAST
+Vx -> 3x Location(Human(x))
+There is a BREEZE in here! Vx,y Location(Human(x)) ^ Breeze(y)-> Cold(Human(x)) => Vx,y Pit(y) ->  NextTo(Human(x),y) ^ Breeze(y)
+There is a PIT in one or more of these locations: [2,3][3,4]
+
+Vx,y,z,w Locations(x,y,z,w) -> 3x,y,z,w Pit/Wumpus(x) || Pit/Wumpus (y) || Pit/Wumpus(z) || Pit/Wumpus(w)
+
